@@ -1,0 +1,23 @@
+[
+    {
+        "slug": "les-restos-du-coeur",
+        "name": "Les restos du coeur",
+        "slogan": "Les relais du coeur",
+        "description": "Fondés par Coluche en 1985, les Restos du Cœur est une association loi de 1901, reconnue d’utilité publique, sous le nom officiel de « les Restaurants du Cœur – les Relais du Cœur ». Ils ont pour but « d’aider et d’apporter une assistance bénévole aux personnes démunies, notamment dans le domaine alimentaire par l’accès à des repas gratuits, et par la participation à leur insertion sociale et économique, ainsi qu’à toute action contre la pauvreté sous toutes ses formes ».",
+        "image": "https://www.restosducoeur.org/wp-content/uploads/2016/04/logo.svg"
+    },
+    {
+        "slug": "unicef",
+        "name": "Unicef",
+        "slogan": "Pour chaque enfant",
+        "description": "UUNICEF - pour United Nations International Children's Emergency Fund, soit Fonds des Nations unies pour l’enfance - est une agence des Nations unies, créée en 1946, dont le siège est à New York, aux États-Unis. Elle est chargée, dans le monde entier, de défendre les droits des enfants, de répondre à leurs besoins essentiels et de favoriser leur plein épanouissement.",
+        "image": "https://logos-marques.com/wp-content/uploads/2021/03/UNICEF-Logo.png"
+    },
+    {
+        "slug": "konexio",
+        "name": "Konexio",
+        "slogan": "Faire du numérique une opportunité pour tous.tes",
+        "description": "Konexio est une association et un organisme de formation qui forme aux compétences numériques - des plus basiques aux plus avancées - afin de faciliter l'inclusion socioprofessionnelle.",
+        "image": "https://d1v8uc2aqxfbnw.cloudfront.net/production/associations/pictures/c3e6f2c53be9c9be9177d3f0888a97747022413c.png?1635249611"
+    }
+]
