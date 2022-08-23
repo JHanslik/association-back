@@ -9,7 +9,13 @@ app.get("/", (req, res) => {
     res.json(associations);
 });
 app.get("/messages", (req, res) => {
-    res.json(messages);
+    const messagesSorted = messages
+        .sort((a, b) => {
+            return moment(a.time).diff(moment(b.time));
+        })
+        .reverse();
+
+    res.json(messagesSorted);
 });
 
 app.get("/:slug", verifyAssociation, (req, res) => {
@@ -26,7 +32,8 @@ app.post("/:slug/contact", verifyAssociation, (req, res) => {
         time: moment().format("MMMM Do YYYY, h:mm:ss a"),
         slug: req.params.slug,
     };
-    messages.unshift(message);
+    messages.push(message);
+
     res.status(201).json("Message sent");
 });
 
